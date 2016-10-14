@@ -1,0 +1,33 @@
+<div class="home">
+<a class="button icon-left ion-chevron-left button-clear button-dark" href="#/">Back</a>
+
+<div class="list card">
+  
+  <div class="item item-avatar">
+    <img ng-src="{{movie.cover}}">
+    <h2>{{movie.title}}</h2>
+    <p>{{movie.category}}</p>
+  </div>
+
+  <div class="item item-image">
+    <img ng-src="{{movie.cover}}">
+  </div>
+
+  
+
+</div>
+
+<div class="list">
+<div class="item item-divider">1° Temporada</div>
+  <div class="item item-button-right" ng-repeat="episode in movie.episodes">
+    {{episode.name}}
+    <button class="button on" ng-if="episode.status" ng-click="read()">
+      <i class="icon ion-checkmark"></i>
+    </button>
+    
+    <button class="button off" ng-if="episode.status == false" ng-click="read()">
+      <i class="icon ion-checkmark"></i>
+    </button>
+  </div>
+</div>
+</div>

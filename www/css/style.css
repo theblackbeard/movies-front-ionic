@@ -1,0 +1,20 @@
+/* Empty. Add your own CSS if you like */
+
+.home{
+    margin-top: 55px;
+}
+
+.off{
+    background-color: rgba(0, 0, 0, .0);
+    color: rgba(0, 0, 0, .1)
+}
+
+.off:hover{
+     background-color: rgba(0, 0, 0, .0);
+     color: rgba(0, 0, 0, 1)
+}
+
+.on {
+    background-color: rgba(0, 0, 0, .0);
+    color: rgba(51, 204, 51,1)
+}
