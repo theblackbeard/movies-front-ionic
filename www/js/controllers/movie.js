@@ -6,14 +6,24 @@ angular.module('movies')
     }) 
     
     .controller('DetailCtrl', function($scope, MovieService, $state, $stateParams){
-        MovieService.one($stateParams.id).then(function(movie){
+       
+       var one = function(id){
+        MovieService.one(id).then(function(movie){
             console.log(movie)
             return $scope.movie = movie;
         }, function(errMsg){}); 
+       }
+       
+        one($stateParams.id);
         
         
-        $scope.read = function(){
-            console.log("ok")
+        $scope.read = function(movieID, episode){
+         
+         MovieService.changeCS(movieID, episode).then(function(result){
+             one($stateParams.id);
+             console.log(result);
+         });
+         
         }
         
         

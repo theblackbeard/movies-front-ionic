@@ -18,3 +18,11 @@
     background-color: rgba(0, 0, 0, .0);
     color: rgba(51, 204, 51,1)
 }
+
+.notwatched{
+    background-color:  #F5F5F5;
+}
+
+.watched {
+    background-color: #fff;
+}
