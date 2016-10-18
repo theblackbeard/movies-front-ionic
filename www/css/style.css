@@ -11,12 +11,19 @@
 
 .off:hover{
      background-color: rgba(0, 0, 0, .0);
-     color: rgba(0, 0, 0, 1)
+     color: rgba(0, 0, 0, 1);
+   
 }
+
+.icon {
+      font-size: 12px;
+}
+
 
 .on {
     background-color: rgba(0, 0, 0, .0);
-    color: rgba(51, 204, 51,1)
+    color: rgba(51, 204, 51,1);
+    font-size: 12px;
 }
 
 .notwatched{
@@ -25,4 +32,8 @@
 
 .watched {
     background-color: #fff;
+}
+
+.item-note{
+    font-size: 11px;
 }

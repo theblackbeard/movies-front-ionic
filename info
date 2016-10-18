@@ -1,0 +1,338 @@
+Create a Ionic app as follows:
+
+Create a new workspace (Node.js or Custom for a clean workspace)
+Open a Terminal, or use the pre-existing one at the bottom
+Run the following commands in the Terminal:
+$ npm install -g cordova ionic
+$ ionic start myApp sidemenu
+$ cd myApp
+$ ionic serve -p $PORT --nolivereload
+
+
+
+{
+	"title": "The Flash"
+	"cover": "https://upload.wikimedia.org/wikipedia/en/9/98/The_Flash_Intertitle.png",
+	"category": "Herois"
+	"episodes": [
+		{
+			"season": "1",
+			"episode" : 1,
+			"name" : "Pilot",
+			"status": true
+		},
+		{
+			"season": "1",
+			"episode" : 2,
+			"name" : "Fastest Man Alive",
+			"status": false
+		},
+		{
+			"season": "1",
+			"episode" : 3,
+			"name" : "Things You Can't Outrun",
+			"status": false
+		},
+		{
+			"season": "1",
+			"episode" : 4,
+			"name" : "Going Rogue",
+			"status": false
+		},
+		{
+			"season": "1",
+			"episode" : 5,
+			"name" : "Plastique",
+			"status": false
+		},
+		{
+			"season": "1",
+			"episode" : 6,
+			"name" : "The Flash Is Born",
+			"status": false
+		},
+		{
+			"season": "1",
+			"episode" : 7,
+			"name" : "Power Outage",
+			"status": false
+		},
+		{
+			"season": "1",
+			"episode" : 8,
+			"name" : "Flash vs. Arrow",
+			"status": false
+		},
+		{
+			"season": "1",
+			"episode" : 9,
+			"name" : "The Man in the Yellow Suit",
+			"status": false
+		},
+		{
+			"season": "1",
+			"episode" : 10,
+			"name" : "Revenge of the Rogues",
+			"status": false
+		},
+		{
+			"season": "1",
+			"episode" : 11,
+			"name" : "The Sound and the Fury",
+			"status": false
+		},
+		{
+			"season": "1",
+			"episode" : 12,
+			"name" : "Crazy for You",
+			"status": false
+		},
+		{
+			"season": "1",
+			"episode" : 13,
+			"name" : "The Nuclear Man",
+			"status": false
+		},
+		{
+			"season": "1",
+			"episode" : 14,
+			"name" : "Fallout",
+			"status": false
+		},
+		{
+			"season": "1",
+			"episode" : 15,
+			"name" : "Out of Time",
+			"status": false
+		},
+		{
+			"season": "1",
+			"episode" : 16,
+			"name" : "Rogue Time",
+			"status": false
+		},
+		{
+			"season": "1",
+			"episode" : 17,
+			"name" : "Tricksters",
+			"status": false
+		},
+		{
+			"season": "1",
+			"episode" : 18,
+			"name" : "All Star Team Up",
+			"status": false
+		},
+		{
+			"season": "1",
+			"episode" : 19,
+			"name" : "Who Is Harrison Wells?",
+			"status": false
+		},
+		{
+			"season": "1",
+			"episode" : 20,
+			"name" : "The Trap",
+			"status": false
+		},
+		{
+			"season": "1",
+			"episode" : 21,
+			"name" : "Grodd Lives",
+			"status": false
+		},
+		{
+			"season": "1",
+			"episode" : 22,
+			"name" : "Rogue Air",
+			"status": false
+		},
+		{
+			"season": "1",
+			"episode" : 23,
+			"name" : "Fast Enough",
+			"status": false
+		},
+		{
+			"season": "2",
+			"episode" : 24,
+			"name" : "The Man Who Saved Central City",
+			"status": false
+		},
+		{
+			"season": "2",
+			"episode" : 25,
+			"name" : "Flash of Two Worlds",
+			"status": false
+		},
+		{
+			"season": "2",
+			"episode" : 26,
+			"name" : "Family of Rogues",
+			"status": false
+		},
+		{
+			"season": "2",
+			"episode" : 27,
+			"name" : "The Fury of Firestorm",
+			"status": false
+		},
+		{
+			"season": "2",
+			"episode" : 28,
+			"name" : "The Darkness and the Light",
+			"status": false
+		},
+		{
+			"season": "2",
+			"episode" : 29,
+			"name" : "Enter Zoom",
+			"status": false
+		},
+		{
+			"season": "2",
+			"episode" : 30,
+			"name" : "Gorilla Warfare",
+			"status": false
+		},
+		{
+			"season": "2",
+			"episode" : 31,
+			"name" : "Legends of Today",
+			"status": false
+		},
+		{
+			"season": "2",
+			"episode" : 32,
+			"name" : "Running to Stand Still",
+			"status": false
+		},
+		{
+			"season": "2",
+			"episode" : 33,
+			"name" : "Potential Energy",
+			"status": false
+		},
+		{
+			"season": "2",
+			"episode" : 34,
+			"name" : "The Reverse-Flash Returns",
+			"status": false
+		},
+		{
+			"season": "2",
+			"episode" : 35,
+			"name" : "Fast Lane",
+			"status": false
+		},
+		{
+			"season": "2",
+			"episode" : 36,
+			"name" : "Welcome to Earth-2",
+			"status": false
+		},
+		{
+			"season": "2",
+			"episode" : 37,
+			"name" : "Escape from Earth-2",
+			"status": false
+		},
+		{
+			"season": "2",
+			"episode" : 38,
+			"name" : "King Shark",
+			"status": false
+		},
+		{
+			"season": "2",
+			"episode" : 39,
+			"name" : "Trajectory",
+			"status": false
+		},
+		{
+			"season": "2",
+			"episode" : 40,
+			"name" : "Flash Back",
+			"status": false
+		},
+		{
+			"season": "2",
+			"episode" : 41,
+			"name" : "Versus Zoom",
+			"status": false
+		},
+		{
+			"season": "2",
+			"episode" : 42,
+			"name" : "Back to Normal",
+			"status": false
+		},
+		{
+			"season": "2",
+			"episode" : 43,
+			"name" : "Rupture",
+			"status": false
+		},
+		{
+			"season": "2",
+			"episode" : 44,
+			"name" : "The Runaway Dinosaur",
+			"status": false
+		},
+		{
+			"season": "2",
+			"episode" : 45,
+			"name" : "Invincible",
+			"status": false
+		},
+		{
+			"season": "2",
+			"episode" : 46,
+			"name" : "The Race of His Life",
+			"status": false
+		},
+		{
+			"season": "3",
+			"episode" : 47,
+			"name" : "Flashpoint",
+			"status": false
+		},
+		{
+			"season": "3",
+			"episode" : 48,
+			"name" : "Paradox",
+			"status": false
+		},
+		{
+			"season": "3",
+			"episode" : 49,
+			"name" : "Magenta",
+			"status": false
+		},
+		{
+			"season": "3",
+			"episode" : 50,
+			"name" : "The New Rogues",
+			"status": false
+		},
+		{
+			"season": "3",
+			"episode" : 51,
+			"name" : "Monster",
+			"status": false
+		},
+		{
+			"season": "3",
+			"episode" : 52,
+			"name" : "TBA",
+			"status": false
+		},
+		{
+			"season": "3",
+			"episode" : 53,
+			"name" : "Killer Frost",
+			"status": false
+		}
+
+	]
+}

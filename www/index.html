@@ -17,6 +17,8 @@
     </script>-->
 
     <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link rel='stylesheet' href='lib/angular-loading-bar/build/loading-bar.min.css' type='text/css' media='all' />
+    
     <link href="css/style.css" rel="stylesheet">
 
     <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
@@ -29,6 +31,8 @@
     <!-- cordova script (this will be a 404 during development) -->
     <script src="cordova.js"></script>
 
+    <script type='text/javascript' src='lib/angular-loading-bar/build/loading-bar.min.js'></script>
+    
     <!-- your app's js -->
     <script src="js/app.js"></script>
     <script src="js/controllers/movie.js"></script>
@@ -37,12 +41,13 @@
   </head>
   
   <body ng-app="movies">
-     <div class="bar bar-header bar-dark">
-        <h1 class="title">Series Manager</h1>
+    
+    <div class="bar bar-header bar-assertive">
+      <h1 class="title">SERIES MANAGER</h1>
     </div>
-    
-    
     <ui-view></ui-view>
+    
+    
     
   </body>
 </html>

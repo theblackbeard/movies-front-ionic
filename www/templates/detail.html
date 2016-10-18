@@ -1,5 +1,5 @@
 <div class="home">
-<a class="button icon-left ion-chevron-left button-clear button-dark" href="#/">Back</a>
+<a class="button icon-left ion-chevron-left button-clear button-dark" href="#/">Voltar</a>
 
 <div class="list card">
   
@@ -22,7 +22,7 @@
        Episodios
      </div>
      <div class="item item-button-right" ng-class="(s.status==true) ? 'watched' : 'notwatched'" ng-repeat="s in movie.episodes | orderBy:'movie.episode' ">
-      {{s.name}}
+     {{s.name}}
       
     <span class="item-note">
       EP: <strong>{{s.episode}}</strong> SE: <strong>{{s.season}}</strong> 

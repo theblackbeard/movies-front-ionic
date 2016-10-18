@@ -1,17 +1,16 @@
 <div class="home">
-<div class="list list-inset">
-  <label class="item item-input">
-    <i class="icon ion-search placeholder-icon"></i>
-    <input type="text" placeholder="Search">
-  </label>
-</div>
-<div class="list">
-
-    <a class="item item-thumbnail-left" href="#/detail/{{movie._id}}" ng-repeat="movie in movies">
-      <img ng-src="{{movie.cover}}">
-      <h2>{{movie.title}}</h2>
-      <p>{{movie.category}}</p>
-    </a>
-     
-</div>
+  <div class="list list-inset">
+    <label class="item item-input">
+      <i class="icon ion-search placeholder-icon"></i>
+      <input type="text" placeholder="Buscar" ng-model="serie">
+    </label>
+  </div>
+  <div class="list">
+      <a class="item item-thumbnail-left" href="#/detail/{{movie._id}}" ng-repeat="movie in movies | orderBy : '-created_at' |filter:serie">
+        <img ng-src="{{movie.cover}}">
+        <h2>{{movie.title}}</h2>
+        <p>{{movie.category}}</p>
+      </a>
+       
+  </div>
 </div>
